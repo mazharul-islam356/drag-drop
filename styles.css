@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.box .hovered{
+    border: 10px dashed black;
+}
+
+.box {
+    width: 9rem;
+    height: 9rem;
+    background-color: purple;
+    margin: 5px;
+}
+
+#draggable-container {
+    position: relative;
+}
+
+.image {
+    border: 3px dashed white;
+    width: 9rem;
+    height: 9rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    background-image: url(./home.jpg);
+   
+}
